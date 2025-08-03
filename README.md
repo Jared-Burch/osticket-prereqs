@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - IIS
 - PHP manager
-- Rewreite Module
+- Rewrite Module
 - Item 4
 - Item 5
 
@@ -47,15 +47,37 @@ Then I connected to the virtual machine using Remote Desktop by entering the pub
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<<img width="1143" height="303" alt="image" src="https://github.com/user-attachments/assets/0aac8a8c-50a3-40e3-bbd9-079b7ef84859" />
+
 </p>
 <p>
-From within the virtual machine I dowloaded the osTicket instalation file and unzipped it to my deskop. https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
-</p>
+From within the virtual machine I dowloaded the osTicket instalation file https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+</p>  and unzipped it to my desktop by clicking the tab labeled "compressed folder tools" and clicking "extract all" after the folder is unzipped I drag and drop the folder onto the desktop. 
 <br />
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1119" height="501" alt="image" src="https://github.com/user-attachments/assets/2a0685d1-c743-411a-8aab-592763839857" />
+
+Next I enabled IIS with CGI by going to the control panel and clicking programs then clicking "turn windows features on or off" I then clicking on the drop down beside "Internet Information Services" then "World Wide web Services" and "Application Development Features"  and checked the box next to CGI
+
+
+
+<img width="998" height="446" alt="image" src="https://github.com/user-attachments/assets/18b18772-9e40-4f77-ba0b-3c343dd80c76" />
+
+From within the osTicket installations file folder I installed the PHP manager and rewrite module by double clicking them and following the prompts.
+
+
+<img width="1594" height="745" alt="image" src="https://github.com/user-attachments/assets/1c2936c1-f6b5-448c-b38f-938ab70eb2fe" />
+
+Next I went to file explorer under "this PC" and "Windows" then created a new folder named "PHP" and then extraced the php file to the new PHP folder. Then I installed the VC_redist and mysql files by double clicking them and following the prompt. For mysql I did the typical setup and launched Configuration Wizard after install, then I selected the standard configuration and for the username and password used "root"
+
+
+<img width="1186" height="616" alt="image" src="https://github.com/user-attachments/assets/ffe1d78c-ce90-4ac1-9db3-9359ed19bfb2" />
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
+
+img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
