@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Web Server
-- Operating System
+- Windows 10
 - PHP
 - MySQL database
 - osTicket package
